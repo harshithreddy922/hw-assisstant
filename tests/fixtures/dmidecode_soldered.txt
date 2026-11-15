@@ -1,0 +1,38 @@
+# dmidecode 3.5
+SMBIOS 3.4 present.
+
+Handle 0x0005, DMI type 16, 23 bytes
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 16 GB
+	Number Of Devices: 2
+
+Handle 0x0006, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0005
+	Size: 8192 MB
+	Form Factor: Row Of Chips
+	Locator: Controller0-ChannelA
+	Bank Locator: BANK 0
+	Type: LPDDR5
+	Speed: 6400 MT/s
+	Manufacturer: Micron
+	Serial Number: 00000000
+	Part Number: MT62F1G32D2DS-026
+	Configured Memory Speed: 6400 MT/s
+
+Handle 0x0007, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0005
+	Size: 8192 MB
+	Form Factor: Row Of Chips
+	Locator: Controller1-ChannelA
+	Bank Locator: BANK 2
+	Type: LPDDR5
+	Speed: 6400 MT/s
+	Manufacturer: Micron
+	Serial Number: 00000000
+	Part Number: MT62F1G32D2DS-026
+	Configured Memory Speed: 6400 MT/s

@@ -1,0 +1,117 @@
+{
+   "blockdevices": [
+      {
+         "name": "zram0",
+         "kname": "zram0",
+         "pkname": null,
+         "type": "disk",
+         "size": 0,
+         "model": null,
+         "vendor": null,
+         "rota": false,
+         "tran": null,
+         "rm": false,
+         "hotplug": false,
+         "fstype": null,
+         "mountpoints": [
+             null
+         ]
+      },{
+         "name": "vda",
+         "kname": "vda",
+         "pkname": null,
+         "type": "disk",
+         "size": 274877906944,
+         "model": null,
+         "vendor": "0x1af4",
+         "rota": true,
+         "tran": "virtio",
+         "rm": false,
+         "hotplug": false,
+         "fstype": null,
+         "mountpoints": [
+             "/"
+         ]
+      },{
+         "name": "vdb",
+         "kname": "vdb",
+         "pkname": null,
+         "type": "disk",
+         "size": 9891840,
+         "model": null,
+         "vendor": "0x1af4",
+         "rota": true,
+         "tran": "virtio",
+         "rm": false,
+         "hotplug": false,
+         "fstype": null,
+         "mountpoints": [
+             "/opt/rclone"
+         ]
+      },{
+         "name": "vdc",
+         "kname": "vdc",
+         "pkname": null,
+         "type": "disk",
+         "size": 375787520,
+         "model": null,
+         "vendor": "0x1af4",
+         "rota": true,
+         "tran": "virtio",
+         "rm": false,
+         "hotplug": false,
+         "fstype": null,
+         "mountpoints": [
+             "/opt/claude-code"
+         ]
+      },{
+         "name": "vdd",
+         "kname": "vdd",
+         "pkname": null,
+         "type": "disk",
+         "size": 51904512,
+         "model": null,
+         "vendor": "0x1af4",
+         "rota": true,
+         "tran": "virtio",
+         "rm": false,
+         "hotplug": false,
+         "fstype": null,
+         "mountpoints": [
+             "/opt/env-runner"
+         ]
+      },{
+         "name": "vde",
+         "kname": "vde",
+         "pkname": null,
+         "type": "disk",
+         "size": 749568,
+         "model": null,
+         "vendor": "0x1af4",
+         "rota": true,
+         "tran": "virtio",
+         "rm": false,
+         "hotplug": false,
+         "fstype": null,
+         "mountpoints": [
+             "/mnt/skills/public"
+         ]
+      },{
+         "name": "vdf",
+         "kname": "vdf",
+         "pkname": null,
+         "type": "disk",
+         "size": 6115328,
+         "model": null,
+         "vendor": "0x1af4",
+         "rota": true,
+         "tran": "virtio",
+         "rm": false,
+         "hotplug": false,
+         "fstype": null,
+         "mountpoints": [
+             "/mnt/skills/examples"
+         ]
+      }
+   ]
+}

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hwqa"
+version = "1.0.0"
+description = "Ask plain-language questions about your Linux machine's hardware"
+requires-python = ">=3.10"
+dependencies = ["anthropic>=2.0", "httpx>=0.27"]
+
+[project.scripts]
+hwqa = "hwqa.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["hwqa*"]

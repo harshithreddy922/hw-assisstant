@@ -1,0 +1,17 @@
+{
+   "blockdevices": [
+      {"name":"nvme0n1", "kname":"nvme0n1", "pkname":null, "type":"disk", "size":512110190592, "model":"SAMSUNG MZVL2512HCJQ-00BL7", "vendor":null, "rota":false, "tran":"nvme", "rm":false, "hotplug":false, "fstype":null, "mountpoints":[null],
+         "children": [
+            {"name":"nvme0n1p1", "kname":"nvme0n1p1", "pkname":"nvme0n1", "type":"part", "size":272629760, "model":null, "vendor":null, "rota":false, "tran":"nvme", "rm":false, "hotplug":false, "fstype":"vfat", "mountpoints":["/boot/efi"]},
+            {"name":"nvme0n1p2", "kname":"nvme0n1p2", "pkname":"nvme0n1", "type":"part", "size":511835897856, "model":null, "vendor":null, "rota":false, "tran":"nvme", "rm":false, "hotplug":false, "fstype":"ext4", "mountpoints":["/"]}
+         ]
+      },
+      {"name":"sda", "kname":"sda", "pkname":null, "type":"disk", "size":1000204886016, "model":"ST1000LM035-1RK172", "vendor":"ATA     ", "rota":true, "tran":"sata", "rm":false, "hotplug":false, "fstype":null, "mountpoints":[null],
+         "children": [
+            {"name":"sda1", "kname":"sda1", "pkname":"sda", "type":"part", "size":1000203837440, "model":null, "vendor":null, "rota":true, "tran":"sata", "rm":false, "hotplug":false, "fstype":"ext4", "mountpoints":["/data"]}
+         ]
+      },
+      {"name":"sdb", "kname":"sdb", "pkname":null, "type":"disk", "size":32015679488, "model":"Cruzer Blade", "vendor":"SanDisk ", "rota":false, "tran":"usb", "rm":true, "hotplug":true, "fstype":"vfat", "mountpoints":["/media/user/USB"]},
+      {"name":"zram0", "kname":"zram0", "pkname":null, "type":"disk", "size":8589934592, "model":null, "vendor":null, "rota":false, "tran":null, "rm":false, "hotplug":false, "fstype":"swap", "mountpoints":["[SWAP]"]}
+   ]
+}
